@@ -4,5 +4,5 @@ function addElementToBeginningOfArray(arr, candy) {
   return arr;
 }
 function addElementToBeginningOfArray(arr, candy) {
-  return arr[...chocolateBars, candy];
+  return [...chocolateBars, candy];
 }
