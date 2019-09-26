@@ -3,6 +3,3 @@ function addElementToBeginningOfArray(arr, candy) {
   arr.unshift(candy);
   return arr;
 }
-function addElementToBeginningOfArray(arr, candy) {
-  return [...chocolateBars, candy];
-}
